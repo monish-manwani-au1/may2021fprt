@@ -1,0 +1,26 @@
+/*dummy intialized array for rough testing done till 1pm
+var arrz = [0,13,11,11,22,22];
+var n = arrz.length;
+var h;
+var i;
+var j;
+var uniquearr = [];
+if (n >= 1 && n <= 100) {
+  //main  
+function finduniqueindex() {
+  for (i = 0; i < n; i++) { 
+    for (j = 0; j < n; j++)
+       if (arrz[i]==arrz[j] && i!=j){
+         break;
+        }
+       if(j==n){
+         uniquearr.push(++i);
+        }
+   }
+   return uniquearr;
+  }
+
+ console.log(finduniqueindex().toString());
+}    
+else console.log("array length invalid")
+*/
