@@ -14,7 +14,7 @@ function finduniqueindex() {
          break;
         }
        if(j==n){
-         uniquearr.push(++i);
+         uniquearr.push(i);
         }
    }
    return uniquearr;
